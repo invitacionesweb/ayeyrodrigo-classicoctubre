@@ -303,12 +303,9 @@ audio::-webkit-media-controls-current-time-display {
     padding: auto;
 }
 .ubicacion .icon {
-    width: 80px;
+    width:320px;
 }
-.icon {
-    width: 80px;
 
-}
 .galeria1 {
     width: 100%;
 
