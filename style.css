@@ -81,6 +81,7 @@ margin-top: 60px;
     animation: bounce;
     animation-duration:2s;
     animation-iteration-count: unset;
+    z-index: 300;
 }
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
