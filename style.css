@@ -306,6 +306,9 @@ audio::-webkit-media-controls-current-time-display {
 .ubicacion .icon {
     width:320px;
 }
+.ubicacion .icon-2 {
+    width: 60px;
+}
 
 .galeria1 {
     width: 100%;
@@ -372,7 +375,9 @@ audio::-webkit-media-controls-current-time-display {
     text-align: center;
     padding: 40px 0 40px 0;
 }
-
+.forms .icon-2 {
+    width: 60px;
+}
 .forms h2 {
     text-align: center;
     font-weight: 100;
@@ -515,6 +520,9 @@ label .grupo-opciones {
     text-align: center;
     padding: 40px 0;
 }
+.dresscode .icon {
+    width: 60px;
+}
 .dresscode h2 {
     margin: 0;
     padding: 0;
@@ -526,6 +534,68 @@ label .grupo-opciones {
     margin: 0 0 10px 0;
     font-size: 1.2rem;
 
+}
+.colores-titulo {
+    text-align: center;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    font-size: 2em;
+    color: var(--color-principal);
+    margin: 30px 0 20px 0;
+    /* si ya tenés una fuente cursiva/script definida en tu :root, poné acá var(--tu-fuente) en vez del italic */
+}
+
+.colores-reservados {
+    width:400PX;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.color-circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.color-circulo.blanco {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08); /* para que no se pierda contra un fondo claro */
+}
+.color-circulo.chocolate {
+    background-color: #5c3a21;
+}
+
+.color-x {
+    font-size: 1.6em;
+    line-height: 1;
+    color: rgba(0,0,0,0.35); /* X oscura para el círculo blanco */
+}
+.color-circulo.chocolate .color-x {
+    color: rgba(255,255,255,0.6); /* X clara para el círculo oscuro, si no no se ve */
+}
+
+.color-nombre {
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    font-family: var(--font-secundaria);
+    color:var(--color-principal);
 }
 .galeria2 {
     width: 100%;
@@ -566,6 +636,9 @@ label .grupo-opciones {
     max-width: 400px;
     font-size: 1.2rem;
 
+}
+.dos .icon-2 {
+    width: 60px;
 }
 .tres {
     width: 100%;
