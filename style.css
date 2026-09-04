@@ -628,6 +628,9 @@ label .grupo-opciones {
     border-radius: 20px;
 
 }
+.dos h2 {
+    padding: 0 0 10px 0;
+}
 .dos p {
     max-width: 500px;
     padding: 0PX 30px;
